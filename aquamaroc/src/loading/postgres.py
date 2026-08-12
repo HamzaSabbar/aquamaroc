@@ -11,7 +11,7 @@ CSV_FILE = BASE_DIR / "data" / "processed" / "barrages_daily.csv"
 DB_CONFIG = {
     "dbname": "aquamaroc",
     "user": "postgres",
-    "password": "MDP",
+    "password": "hamza",
     "host": "localhost",
     "port": 5432,
 }
