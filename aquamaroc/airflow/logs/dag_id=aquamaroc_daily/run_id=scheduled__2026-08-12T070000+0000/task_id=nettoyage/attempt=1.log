@@ -1,0 +1,57 @@
+{"timestamp":"2026-08-12T20:20:19.106705Z","level":"info","event":"::group::Pre Execute","logger":"task","filename":"task_runner.py","lineno":2303}
+{"timestamp":"2026-08-12T20:20:19.172204Z","level":"info","event":"DAG bundles loaded: dags-folder","run_id":"scheduled__2026-08-12T07:00:00+00:00","task_id":"nettoyage","dag_id":"aquamaroc_daily","map_index":-1,"try_number":1,"ti_id":"019ff7a1-cba0-7805-85c2-a06ad1ed9a86","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":271}
+{"timestamp":"2026-08-12T20:20:19.181383Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/aquamaroc_daily.py","run_id":"scheduled__2026-08-12T07:00:00+00:00","task_id":"nettoyage","dag_id":"aquamaroc_daily","map_index":-1,"try_number":1,"ti_id":"019ff7a1-cba0-7805-85c2-a06ad1ed9a86","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":460}
+{"timestamp":"2026-08-12T20:20:19.266205Z","level":"info","event":"Worker startup parse complete","bundle_name":"dags-folder","bundle_version":null,"dag_file":"aquamaroc_daily.py","dag_id":"aquamaroc_daily","bundle_prepare_ms":35,"dag_file_parse_ms":86,"run_id":"scheduled__2026-08-12T07:00:00+00:00","task_id":"nettoyage","map_index":-1,"try_number":1,"ti_id":"019ff7a1-cba0-7805-85c2-a06ad1ed9a86","logger":"task","filename":"task_runner.py","lineno":1062}
+{"timestamp":"2026-08-12T20:20:19.340294Z","level":"info","event":"::endgroup::","run_id":"scheduled__2026-08-12T07:00:00+00:00","task_id":"nettoyage","dag_id":"aquamaroc_daily","map_index":-1,"try_number":1,"ti_id":"019ff7a1-cba0-7805-85c2-a06ad1ed9a86","logger":"task","filename":"task_runner.py","lineno":2107}
+{"timestamp":"2026-08-12T20:20:24.823784Z","level":"info","event":"          date        bassin  ... taux_annee_precedente volume_millions_m3","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.825854Z","level":"info","event":"0   2026-08-11     أبي رقراق  ...                  75.0              672.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.827582Z","level":"info","event":"1   2026-08-11     أبي رقراق  ...                   NaN              457.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.828980Z","level":"info","event":"2   2026-08-11  زيز كير غريس  ...                  65.0              162.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.830552Z","level":"info","event":"3   2026-08-11  زيز كير غريس  ...                  35.0               63.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.832476Z","level":"info","event":"4   2026-08-11       تانسيفت  ...                  59.0               50.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.834113Z","level":"info","event":"5   2026-08-11       تانسيفت  ...                  40.0               49.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.836298Z","level":"info","event":"6   2026-08-11           سبو  ...                  51.0             2980.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.838424Z","level":"info","event":"7   2026-08-11           سبو  ...                  39.0              842.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.840250Z","level":"info","event":"8   2026-08-11           سبو  ...                  36.0              174.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.841620Z","level":"info","event":"9   2026-08-11         ملوية  ...                  17.0              206.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.843324Z","level":"info","event":"10  2026-08-11         ملوية  ...                  12.0               23.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.845407Z","level":"info","event":"11  2026-08-11      سوس ماسة  ...                  13.0              139.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.846862Z","level":"info","event":"12  2026-08-11      سوس ماسة  ...                   5.0               67.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.848177Z","level":"info","event":"13  2026-08-11      سوس ماسة  ...                  48.0               73.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.849303Z","level":"info","event":"14  2026-08-11       اللوكوس  ...                  82.0              529.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.850416Z","level":"info","event":"15  2026-08-11       اللوكوس  ...                  82.0              122.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.852531Z","level":"info","event":"16  2026-08-11       اللوكوس  ...                  17.0              443.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.854620Z","level":"info","event":"17  2026-08-11  درعة واد نون  ...                  40.0              173.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.856769Z","level":"info","event":"18  2026-08-11  درعة واد نون  ...                  16.0               53.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.858375Z","level":"info","event":"19  2026-08-11     أم الربيع  ...                  14.0             1092.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.860017Z","level":"info","event":"20  2026-08-11     أم الربيع  ...                   3.0             1080.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.861369Z","level":"info","event":"21  2026-08-11     أم الربيع  ...                  13.0              562.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.862467Z","level":"info","event":"44  2026-08-12     أبي رقراق  ...                  75.0              672.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.863542Z","level":"info","event":"45  2026-08-12     أبي رقراق  ...                   NaN              457.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.864572Z","level":"info","event":"46  2026-08-12  زيز كير غريس  ...                  65.0              162.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.865664Z","level":"info","event":"47  2026-08-12  زيز كير غريس  ...                  35.0               63.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.866683Z","level":"info","event":"48  2026-08-12       تانسيفت  ...                  59.0               50.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.868222Z","level":"info","event":"49  2026-08-12       تانسيفت  ...                  40.0               49.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.870371Z","level":"info","event":"50  2026-08-12           سبو  ...                  51.0             2980.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.872375Z","level":"info","event":"51  2026-08-12           سبو  ...                  39.0              842.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.873908Z","level":"info","event":"52  2026-08-12           سبو  ...                  36.0              174.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.875409Z","level":"info","event":"53  2026-08-12         ملوية  ...                  17.0              206.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.877134Z","level":"info","event":"54  2026-08-12         ملوية  ...                  12.0               23.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.878451Z","level":"info","event":"55  2026-08-12      سوس ماسة  ...                  13.0              139.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.879757Z","level":"info","event":"56  2026-08-12      سوس ماسة  ...                   5.0               67.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.881093Z","level":"info","event":"57  2026-08-12      سوس ماسة  ...                  48.0               73.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.882493Z","level":"info","event":"58  2026-08-12       اللوكوس  ...                  82.0              529.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.884135Z","level":"info","event":"59  2026-08-12       اللوكوس  ...                  82.0              122.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.886670Z","level":"info","event":"60  2026-08-12       اللوكوس  ...                  17.0              443.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.888896Z","level":"info","event":"61  2026-08-12  درعة واد نون  ...                  40.0              173.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.891038Z","level":"info","event":"62  2026-08-12  درعة واد نون  ...                  16.0               53.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.893138Z","level":"info","event":"63  2026-08-12     أم الربيع  ...                  14.0             1092.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.895129Z","level":"info","event":"64  2026-08-12     أم الربيع  ...                   3.0             1080.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.897913Z","level":"info","event":"65  2026-08-12     أم الربيع  ...                  13.0              562.0","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.900176Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.903056Z","level":"info","event":"[44 rows x 7 columns]","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.905164Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.906846Z","level":"info","event":"Données propres sauvegardées : /opt/airflow/aquamaroc/data/processed/barrages_daily.csv","logger":"task.stdout"}
+{"timestamp":"2026-08-12T20:20:24.823693Z","level":"info","event":"Done. Returned value was: None","run_id":"scheduled__2026-08-12T07:00:00+00:00","task_id":"nettoyage","dag_id":"aquamaroc_daily","map_index":-1,"try_number":1,"ti_id":"019ff7a1-cba0-7805-85c2-a06ad1ed9a86","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":233}
+{"timestamp":"2026-08-12T20:20:24.824449Z","level":"info","event":"::group::Post Execute","run_id":"scheduled__2026-08-12T07:00:00+00:00","task_id":"nettoyage","dag_id":"aquamaroc_daily","map_index":-1,"try_number":1,"ti_id":"019ff7a1-cba0-7805-85c2-a06ad1ed9a86","logger":"task","filename":"task_runner.py","lineno":1577}
+{"timestamp":"2026-08-12T20:20:24.961788Z","level":"info","event":"::endgroup::","run_id":"scheduled__2026-08-12T07:00:00+00:00","task_id":"nettoyage","dag_id":"aquamaroc_daily","map_index":-1,"try_number":1,"ti_id":"019ff7a1-cba0-7805-85c2-a06ad1ed9a86","logger":"task","filename":"task_runner.py","lineno":2270}

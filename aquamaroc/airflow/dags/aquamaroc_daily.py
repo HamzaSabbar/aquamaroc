@@ -9,7 +9,7 @@ sys.path.insert(0, "/opt/airflow/aquamaroc/src")
 
 @dag(
     dag_id="aquamaroc_daily",
-    schedule=None,  # manuel pour le moment
+    schedule="0 12 * * *", 
     start_date=pendulum.datetime(2026, 8, 12, tz="Africa/Casablanca"),
     catchup=False,
     tags=["aquamaroc"],
