@@ -1,0 +1,23 @@
+﻿barrage,bassin_id,bassin,latitude,longitude,coord_query,coord_display_name,coord_status
+الحسن الثاني,MH1,ملوية,34.2066921,-2.6394695,سد الحسن الثاني,"Barrage Hassan II سد الحسن الثاني, Ahl Oued Za أهل وادزا, Caïdat d'Ahl Taourirt قيادة أهل تاوريرت, Cercle de Taourirt دائرة تاوريرت, Province de Taourirt إقليم تاوريرت, Oriental ⵜⴰⵏⴳⵎⵓⴹⵜ الشرقية, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+محمد الخامس,MH1,ملوية,34.6632367,-2.9380618,سد محمد الخامس,"Barrage Mohamed V سد محمد الخامس, Hassi Berkane حاسي بركان, Caïdat de Hassi Berkane, Cercle de Louta دائرة الوطا, Province de Nador إقليم الناظور, Oriental ⵜⴰⵏⴳⵎⵓⴹⵜ الشرقية, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+الشريف الإدريسي,MH2,اللوكوس,,,,,not_found
+دار خروفة,MH2,اللوكوس,,,,,not_found
+وادي المخازن,MH2,اللوكوس,34.9415341,-5.8399068,وادي المخازن,"Oued El Makhazine وادي المخازن, Oued El Makhazine واد المخازن, Caïdat de Arbaoua, Cercle Souk Arbaa El Gharb, Province de Kenitra إقليم القنيطرة, Rabat-Salé-Kénitra ⵔⴱⴰⵟ-ⵙⵍⴰ-ⵇⵏⵉⵟⵔⴰ الرباط-سلا-القنيطرة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+أسفالو,MH3,سبو,34.6331446,-4.1901819,Asfalou Dam,"Barrage Asfalou, Tamedit تمضيت, Caïdat de Mernissa, Cercle de Taounate دائرة تاونات, Province de Taounate إقليم تاونات, Fès-Meknès ⴼⴰⵙ-ⵎⴽⵏⴰⵙ فاس-مكناس, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+إدريس الأول,MH3,سبو,,,,,not_found
+الوحدة,MH3,سبو,34.5979104,-5.200165,Al Wahda Dam,"Barrage Al Wahda, El Jorf Lamjaara, Lamjaara لمرابيح, Caïdat de Lamjaara, Cercle d'Al Ouahda, Province de Ouezzane إقليم وزان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+حسن الداخل,MH4,زيز كير غريس,31.9928701,-4.4622575,Hassan Addakhil Dam,"Barrage Al Hassan Addakhil, Lkheng الخنك, Caïdat de M'daghra Lkeng قيادة مدغرة الخنك, Cercle d'Errachidia دائرة الرشيدية, Province d'Errachidia إقليم الرشيدية, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+قدوسة,MH4,زيز كير غريس,32.1662699,-3.7859677,Kaddoussa Dam,"Barrage de Kaddoussa, Ksar Kaddoussa, Oued Naam وادي النعام, caïdat d'Oued Naam قيادة وادي النعام, Cercle d'Errachidia دائرة الرشيدية, Province d'Errachidia إقليم الرشيدية, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+تيداس,MH5,أبي رقراق,33.5817309,-6.3177582,Tiddas Dam,"Tiddas, Tiddas تيداس, caïdat de Tiddas, Cercle d'Oulmes دائرة اولماس, Province de Khémisset إقليم الخميسات, Rabat-Salé-Kénitra ⵔⴱⴰⵟ-ⵙⵍⴰ-ⵇⵏⵉⵟⵔⴰ الرباط-سلا-القنيطرة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+سيدي محمد بن عبد الله,MH5,أبي رقراق,,,,,not_found
+أحمد الحنصالي,MH6,أم الربيع,32.6937476,-5.8893836,سد أحمد الحنصالي,"Barrage Ahmed El Hansali سد أحمد الحنصالي, Ait Oum El Bekht آيت أم البخث, caïdat d'Aït Oum El Bekht, cercle de El Ksiba, Province de Beni Mellal إقليم بني ملال, Béni Mellal-Khénifra ⴰⵢⵜ ⵎⵍⵍⴰⵍ-ⵅⵏⵉⴼⵕⴰ بني ملال-خنيفرة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+المسيرة,MH6,أم الربيع,32.4810226,-7.6353046,Al Massira Dam,"Barrage d'Al Massira, Ain Blal عين بلال, Caïdat de Bni Meskine Gharbia, Cercle de El Borouj, Province de Settat إقليم سطات, Casablanca-Settat ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+بين الويدان,MH6,أم الربيع,32.1090006,-6.5095468,Bin El Ouidane Dam,"Barrage Aït Ouarda, Ait Ouaarda آيت واوردا, caïdat d'Afourar, cercle d'Afourar, Province d'Azilal إقليم أزيلال, Béni Mellal-Khénifra ⴰⵢⵜ ⵎⵍⵍⴰⵍ-ⵅⵏⵉⴼⵕⴰ بني ملال-خنيفرة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+مولاي عبد الرحمان,MH7,تانسيفت,,,,,not_found
+يعقوب المنصور,MH7,تانسيفت,,,,,not_found
+عبد المومن,MH8,سوس ماسة,30.6754168,-9.1986955,Abdelmoumen Dam,"Barrage Abdelmoumen, Bigoudine ⴱⵉⴳⵓⴷⵉⵏ بيگودين, caïdat d'Argana, cercle d'Ouled Teima, Province de Taroudant ⵜⴰⵙⴳⴰ ⵏ ⵜⴰⵔⵓⴷⴰⵏⵜ إقليم تارودانت, Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+مولاي عبد الله,MH8,سوس ماسة,30.7614802,-9.6866751,Moulay Abdellah Dam,"Barrage Moulay Abdellah, Ait Khmis ⴰⵢⵜ ⵅⵎⵉⵙ أيت خميس, Tamri ⵜⴰⵎⵔⵉ تامري, caïdat de Tamri, cercle d'Agadir-Atlantique, Préfecture d'Agadir Ida-Outanane ⵍⵄⴰⵎⴰⵍⴰ ⵏ ⴰⴳⴰⴷⵉⵔ ⵉⴷⴰ ⵡⵜⴰⵏⴰⵏ عمالة أكادير إدا وتنان, Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+يوسف بن تاشفين,MH8,سوس ماسة,29.845388,-9.4954938,Youssef Ben Tachfine Dam,"Barrage Youssef ben Tachfine, Arbaa Rasmouka ⵄⵔⴱⴰ ⵏ ⵔⵙⵎⵓⴽⴰ أربعاء رسموكة, caïdat d'Arbaa Rasmouka, Cercle de Tiznit دائرة تزنيت, Province de Tiznit ⵜⴰⵙⴳⴰ ⵏ ⵜⵉⵣⵏⵉⵜ إقليم تزنيت, Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam
+السلطان مولاي علي الشريف,MH9,درعة واد نون,,,,,not_found
+منصور الذهبي,MH9,درعة واد نون,30.912477,-6.7599445,Mansour Eddahbi Dam,"Barrage d'El Mansour-Eddahbi, Tarmigt ترميڭت, caïdat de Ahl Ouarzazate, cercle d'Ouarzazate, Province d'Ouarzazate ⵜⴰⵙⴳⴰ ⵏ ⵡⴰⵔⵣⴰⵣⴰⵜ إقليم ورززات, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",osm_dam

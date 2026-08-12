@@ -8,14 +8,21 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 CSV_FILE = BASE_DIR / "data" / "processed" / "barrages_daily.csv"
 
 
-DB_CONFIG = {
-    "dbname": "aquamaroc",
-    "user": "postgres",
-    "password": "hamza",
-    "host": "localhost",
-    "port": 5432,
-}
+import os
+from dotenv import load_dotenv
 
+load_dotenv(BASE_DIR / ".env")
+
+DB_CONFIG = {
+    "dbname": os.getenv("DB_NAME"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
+    "host": os.getenv(
+        "AQUAMAROC_DB_HOST",
+        os.getenv("DB_HOST", "localhost")
+    ),
+    "port": int(os.getenv("DB_PORT", 5432)),
+}
 
 def load_data():
     df = pd.read_csv(CSV_FILE)
