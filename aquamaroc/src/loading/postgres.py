@@ -116,3 +116,75 @@ def load_data():
 
 if __name__ == "__main__":
     load_data()
+    
+def load_weather_data():
+    weather_file = BASE_DIR / "data" / "processed" / "weather_daily.csv"
+
+    df = pd.read_csv(weather_file)
+
+    with psycopg.connect(**DB_CONFIG) as conn:
+        with conn.cursor() as cur:
+
+            for _, row in df.iterrows():
+
+                date = pd.to_datetime(row["date"])
+
+                # S'assurer que la date existe dans dim_date
+                cur.execute("""
+                    INSERT INTO dim_date (date_id, annee, mois, jour)
+                    VALUES (%s, %s, %s, %s)
+                    ON CONFLICT (date_id) DO NOTHING
+                """, (
+                    date.date(),
+                    date.year,
+                    date.month,
+                    date.day
+                ))
+
+                # Retrouver l'identifiant du barrage
+                cur.execute("""
+                    SELECT barrage_id
+                    FROM dim_barrage
+                    WHERE nom = %s
+                    AND bassin_id = %s
+                """, (
+                    row["barrage"],
+                    row["bassin_id"]
+                ))
+
+                result = cur.fetchone()
+
+                if result is None:
+                    print(f"⚠️ Barrage introuvable : {row['barrage']}")
+                    continue
+
+                barrage_id = result[0]
+
+                # Charger la météo
+                cur.execute("""
+                    INSERT INTO fct_meteo_jour (
+                        date_id,
+                        barrage_id,
+                        temperature_moyenne,
+                        precipitation_mm,
+                        et0_mm
+                    )
+                    VALUES (%s, %s, %s, %s, %s)
+
+                    ON CONFLICT (date_id, barrage_id)
+                    DO UPDATE SET
+                        temperature_moyenne = EXCLUDED.temperature_moyenne,
+                        precipitation_mm = EXCLUDED.precipitation_mm,
+                        et0_mm = EXCLUDED.et0_mm
+                """, (
+                    date.date(),
+                    barrage_id,
+                    row["temperature_moyenne"],
+                    row["precipitation_mm"],
+                    row["et0_mm"],
+                ))
+
+    print("✅ Données météo chargées dans PostgreSQL.")
+    
+if __name__ == "__main__":
+    load_weather_data()

@@ -33,3 +33,19 @@ CREATE TABLE IF NOT EXISTS fct_remplissage_jour (
     FOREIGN KEY (barrage_id)
         REFERENCES dim_barrage(barrage_id)
 );
+
+CREATE TABLE IF NOT EXISTS fct_meteo_jour (
+    date_id DATE NOT NULL,
+    barrage_id INTEGER NOT NULL,
+    temperature_moyenne NUMERIC(5,2),
+    precipitation_mm NUMERIC(8,2),
+    et0_mm NUMERIC(8,2),
+
+    PRIMARY KEY (date_id, barrage_id),
+
+    FOREIGN KEY (date_id)
+        REFERENCES dim_date(date_id),
+
+    FOREIGN KEY (barrage_id)
+        REFERENCES dim_barrage(barrage_id)
+);
