@@ -43,13 +43,32 @@ def aquamaroc_pipeline():
         from loading.postgres import load_data
 
         load_data()
+    
+    
 
+    
+    @task
+    def ingestion_meteo():
+        from ingestion.open_meteo import collect_weather
+
+        collect_weather()
+
+
+    @task
+    def chargement_meteo():
+        from loading.postgres import load_weather_data
+
+        load_weather_data()
+        
+        
+        
     t1 = ingestion()
     t2 = nettoyage()
     t3 = controle_qualite()
     t4 = chargement_postgres()
+    t5 = ingestion_meteo()
+    t6 = chargement_meteo()
 
-    t1 >> t2 >> t3 >> t4
-
+    t1 >> t2 >> t3 >> t4 >> t5 >> t6
 
 aquamaroc_pipeline()
